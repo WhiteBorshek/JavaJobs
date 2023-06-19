@@ -20,8 +20,6 @@ public class Company {
     }
 
     public void needEmployee() {
-        // Логика найма сотрудника
-        // ...
 
         // Уведомление jobAgency о необходимости сотрудника
         jobAgency.notifyObservers(this);
